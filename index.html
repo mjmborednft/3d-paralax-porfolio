@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="navigation">
+        <div class="logo">Portfolio</div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="section">
+            <div class="content">
+                <h1>Привет, я <span class="highlight">Jahongir</span></h1>
+                <p class="subtitle">Frontend Developer & UI/UX Designer</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="https://t.me/mksdvvc" target="_blank" class="social-link">Telegram</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="content">
+                <h2>Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Я увлеченный разработчик с опытом создания современных веб-приложений. Специализируюсь на создании интерактивных и отзывчивых интерфейсов с использованием передовых технологий.</p>
+                        <div class="skills">
+                            <h3>Навыки</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">HTML5 & CSS3</div>
+                                <div class="skill-item">JavaScript (ES6+)</div>
+                                <div class="skill-item">React.js</div>
+                                <div class="skill-item">Three.js</div>
+                                <div class="skill-item">UI/UX Design</div>
+                                <div class="skill-item">Responsive Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/400x400" alt="Фото профиля">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="content">
+                <h2>Мои проекты</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=60" alt="3D Портфолио">
+                            <div class="project-overlay">
+                                <h3>3D Портфолио</h3>
+                                <p>Интерактивное портфолио с 3D-анимациями и эффектами</p>
+                                <div class="project-tech">
+                                    <span>Three.js</span>
+                                    <span>JavaScript</span>
+                                    <span>CSS3</span>
+                                </div>
+                                <button class="project-link" data-modal="modal1">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop&q=60" alt="Task Manager">
+                            <div class="project-overlay">
+                                <h3>Task Manager</h3>
+                                <p>Приложение для управления задачами с drag-and-drop</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Redux</span>
+                                    <span>Firebase</span>
+                                </div>
+                                <button class="project-link" data-modal="modal2">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&auto=format&fit=crop&q=60" alt="Weather App">
+                            <div class="project-overlay">
+                                <h3>Weather App</h3>
+                                <p>Приложение для прогноза погоды с красивым UI</p>
+                                <div class="project-tech">
+                                    <span>JavaScript</span>
+                                    <span>API</span>
+                                    <span>CSS3</span>
+                                </div>
+                                <button class="project-link" data-modal="modal3">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="content">
+                <h2>Свяжитесь со мной</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Локация</h3>
+                            <p>Узбекистан, Ташкент</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Сообщение" required></textarea>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2024 Jahongir Maksudov. Все права защищены.</p>
+                    <p class="footer-text">Разработано с ❤️ в Ташкенте</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://t.me/mksdvvc" target="_blank" class="footer-link">Telegram</a>
+                    <a href="privacy-policy.html" class="footer-link">Политика конфиденциальности</a>
+                    <a href="terms.html" class="footer-link">Условия использования</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <canvas id="bg"></canvas>
+
+    <!-- Модальные окна -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>3D Портфолио</h2>
+            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=60" alt="3D Портфолио">
+            <div class="modal-description">
+                <h3>О проекте</h3>
+                <p>Современное интерактивное портфолио с использованием Three.js для создания впечатляющих 3D-эффектов. Проект включает в себя анимированные переходы, интерактивные элементы и адаптивный дизайн.</p>
+                <h3>Технологии</h3>
+                <ul>
+                    <li>Three.js для 3D-анимаций</li>
+                    <li>JavaScript для интерактивности</li>
+                    <li>CSS3 для стилизации и анимаций</li>
+                    <li>Responsive Design</li>
+                </ul>
+                <div class="modal-links">
+                    <a href="#" class="modal-button">Посмотреть демо</a>
+                    <a href="#" class="modal-button">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Task Manager</h2>
+            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop&q=60" alt="Task Manager">
+            <div class="modal-description">
+                <h3>О проекте</h3>
+                <p>Приложение для управления задачами с функционалом drag-and-drop, фильтрацией и сортировкой задач. Интегрировано с Firebase для хранения данных и аутентификации пользователей.</p>
+                <h3>Технологии</h3>
+                <ul>
+                    <li>React для пользовательского интерфейса</li>
+                    <li>Redux для управления состоянием</li>
+                    <li>Firebase для бэкенда</li>
+                    <li>Drag-and-drop функционал</li>
+                </ul>
+                <div class="modal-links">
+                    <a href="#" class="modal-button">Посмотреть демо</a>
+                    <a href="#" class="modal-button">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Weather App</h2>
+            <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&auto=format&fit=crop&q=60" alt="Weather App">
+            <div class="modal-description">
+                <h3>О проекте</h3>
+                <p>Приложение прогноза погоды с красивым пользовательским интерфейсом. Использует Weather API для получения актуальных данных о погоде, включает анимации и интерактивные элементы.</p>
+                <h3>Технологии</h3>
+                <ul>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Weather API интеграция</li>
+                    <li>CSS3 анимации</li>
+                    <li>Адаптивный дизайн</li>
+                </ul>
+                <div class="modal-links">
+                    <a href="#" class="modal-button">Посмотреть демо</a>
+                    <a href="#" class="modal-button">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
